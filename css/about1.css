@@ -1,0 +1,491 @@
+
+.main{}
+
+    .main_bike{
+        width: 100%;
+    }
+    .main_bike_wrap{
+        width: 1240px;
+        height: 508px;
+        margin:70px auto 100px;
+       /* background-color: #CCCCCC;*/
+    }
+        .main_bike_desc{
+            float: left;
+            width: 300px;
+            margin-top: 60px;
+        }
+        .main_bike_desc_last{
+            margin: 160px 0 0 100px;
+        }
+        .main_bike_desc p{
+            font-size: 36px;
+            margin:80px 0 20px;
+        }
+        .main_bike_desc p span{
+            font-size: 18px;
+        }
+        .main_bike_desc_title{
+            font-size: 52px;
+            line-height: 52px;
+            height: 52px;
+            letter-spacing: 6px;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+        .main_bike_desc_subtitle{
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 28px;
+            height: 28px;
+            letter-spacing: 6px;
+        }
+
+        .main_buy_btn{
+            height: 32px;
+            width: 100px;
+            line-height: 32px;
+            border-radius: 30px;
+            background-color: #ffcb05 ;
+            margin-top: 20px;
+            text-align: center;
+            cursor: pointer;
+        }
+        .main_buy_btn:hover{
+            background-color: #f2bd00;
+        }
+        .main_buy_btn a{
+            color: #444;
+            font-size: 14px;
+        }
+        .main_bike_img{
+            float: left;
+        }
+        .main_bike_img_last{
+            margin: 50px 0 50px 80px;
+        }
+    .main_bike_our{
+        width: 100%;
+        height: 240px;
+        background:url("../images/about1_HJLite/image_we.jpg") no-repeat center;
+    }
+    .main_bike_center{
+        width: 1240px;
+        margin:0 auto;
+    }
+    .main_bike_color{
+        width: 1240px;
+        margin: 80px auto 130px;
+    }
+        .main_bike_color_img{
+            width: 1096px;
+            height: 645px;
+            margin:0 auto;
+            overflow: hidden;
+        }
+        .main_bike_color_chose{
+            /*height: 210px;*/
+           /* background-color: #8bece0;*/
+        }
+        .main_bike_color_chose ul{
+
+            width: 194px;
+            margin:0 auto;
+        }
+        .main_bike_color_chose h2{
+            font-size: 60px;
+            color: #4b4b4b;
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: 400;
+        }
+        .main_bike_color_chose ul li{
+            float: left;
+            width: 92px;
+            height: 22px;
+            line-height: 20px;
+            text-align: center;
+            font-size: 14px;
+            margin-right: 5px;
+            position: relative;
+            cursor: pointer;
+        }
+            .main_color_current{
+            }
+            .main_color_current.main_bike_color_blue {
+                border-radius: 20px;
+                background-color: #5276B7;
+                line-height: 22px;
+                border-width: 0;
+                color: white;
+            }
+            .main_color_current.main_bike_color_white{
+                border: 1px solid #CCCCCC;
+                border-radius: 20px;
+            }
+            .main_bike_color_white i,.main_bike_color_blue i{
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                border-radius: 20px;
+                border: 1px solid #CCCCCC;
+                float: left;
+                left: 0;
+            }
+            .main_bike_color_white i{
+                background-color: white;
+            }
+            .main_bike_color_blue i{
+                background-color: #5276B7;
+            }
+            .main_color_current i,.main_color_current i{
+                opacity: 0;
+            }
+    .main_bike_cross_img{
+        width: 100%;
+        margin-top: 80px;
+    }
+    .main_bike_cross_img img{
+        max-width: 100%;
+    }
+   /* 骑行，不是修行*/
+    .main_bike_title{
+        width: 1240px;
+        height: 282px;
+        margin: 80px auto 60px;
+        /*background-color: #8bece0;*/
+    }
+        .main_bike_title p{
+            font-size: 72px;
+            margin-top: 80px;
+            margin-bottom: 66px;
+            color: #4b4b4b;
+            width: 100%;
+            text-align: center;
+            font-weight: 400;
+        }
+        .main_bike_icon_text{
+            text-align: center;
+            margin:0 auto;
+            width: 100px;
+            padding-top: 100px;
+            color: #32a3ff;
+            background: url("../images/about1_HJLite/pc.min_z.png") no-repeat -387px 0;
+        }
+        .main_bike_icon_text2{
+            background: url("../images/about1_HJLite/pc.min_z.png") no-repeat  0 -336px;
+        }
+        .main_bike_icon_text3{
+            display: inline-block;
+            margin-right: 20px;
+            background: url("../images/about1_HJLite/pc.min_z.png") no-repeat   -114px -337px;
+        }
+        .main_bike_icon_text4{
+            display: inline-block;
+            background: url("../images/about1_HJLite/pc.min_z.png") no-repeat  -228px -337px;
+        }
+
+        .main_bike_icon_text5{
+            display: inline-block;
+            margin-right: 20px;
+            background: url("../images/about1_HJLite/pc.min_z.png") no-repeat   -343px -337px;
+        }
+        .main_bike_icon_text6{
+            display: inline-block;
+            background: url("../images/about1_HJLite/pc.min_z.png") no-repeat  -500px 0;
+        }
+
+        .main_bike_icon_tyre{
+            width: 225px;
+            margin: 0 auto;
+        }
+    .main_bike_frame{
+        width:100%;
+        height: 1152.2px;
+        background-color: #FE705C;
+    }
+        .main_bike_frame_1{
+            width: 100%;
+            height: 552.2px;
+            position: relative;
+            background-color: #f8f8f8;
+        }
+            .main_bike_frame_1_text{
+                position: absolute;
+                text-align: left;
+                left: 10%;
+                top: 90px;
+                width: 300px;
+            }
+                .main_bike_frame_1_text h2{
+                    font-size: 36px;
+                    margin-bottom: 30px;
+                    font-weight: 400;
+                }
+                .main_bike_frame_1_text p{
+                    line-height: 25px;
+                    font-size: 14px;
+                }
+            .main_bike_frame_1_left{
+                position: absolute;
+                left: 10%;
+                top: 280px;
+                border: solid 1px #ccc;
+                width: 210px;
+                height: 210px;
+                border-radius: 50%;
+            }
+            .main_bike_frame_1_right{
+                width: 75%;
+                float: right;
+            }
+        .main_bike_frame_2{
+            width: 100%;
+            height: 600px;
+            position: absolute;
+            background-color: #fbfbfb;
+        }
+            .main_bike_frame_2_text{
+                margin-top: 70px;
+                width: 400px;
+            }
+            .main_bike_frame_2_right{
+                position: absolute;
+                left: 50%;
+                top: 100px;
+                border: solid 1px #ccc;
+                width: 420px;
+                height: 420px;
+                border-radius: 50%;
+                margin-left: -100px;
+            }
+    /*操纵，不是放纵*/
+    .main_bike_shift{
+        width:100%;
+        height: 552.2px;
+       /* background-color: #88C366;*/
+    }
+
+    /*探险，不是冒险*/
+    .main_bike_tyre{
+        width:100%;
+        height: 600px;
+        position: relative;
+    }
+        .main_bike_tyre_right{
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+        }
+        .main_bike_tyre_left{
+            position: absolute;
+            left: 10%;
+            top: 280px;
+        }
+    .main_bike_tyre2{
+        width:100%;
+        position: relative;
+        height: 544.47px;
+        background-color: #f8f8f8;
+    }
+        .main_bike_tyre2_wrap{
+            position: relative;
+
+        }
+        .main_bike_tyre2_right{
+            float: left;
+            width: 65%;
+        }
+        .main_bike_tyre2_left{
+            position: absolute;
+            border: solid 1px #ccc;
+            width: 210px;
+            height: 210px;
+            border-radius: 50%;
+            right: 18%;
+            top: 50px;
+        }
+        .main_bike_tyre2_text{
+            right: 9%;
+            left: auto;
+            top: 300px;
+            width: 340px;
+            position: absolute;
+            text-align: left;
+        }
+
+    /*质量，不是尽量*/
+    .main_bike_test{
+        position: relative;
+        width: 100%;
+        height: 750px;
+        background-color: #f8f8f8;
+    }
+        .main_bike_test_right{
+            float: right;
+            margin-top: 50px;
+            margin-right: 50px;
+        }
+        .main_bike_test a:hover{
+            color: #f2bd00;
+        }
+    /*保持肆意飞扬的细节*/
+    .main_bike_details{
+        width: 100%;
+        height: 1045px;
+        background-color: #fbfbfb;
+    }
+    .main_bike_details_wrap{
+        width: 1240px;
+        margin:0 auto;
+    }
+        .main_bike_details_wrap p{
+            margin-top: 0;
+            padding-top: 80px;
+        }
+        .main_bike_details_wrap ul li{
+            list-style: none;
+            float: left;
+        }
+        .main_bike_details_ul1{
+            width: 455px;
+            height: 112px;
+            margin:0 auto 95px;
+            text-align: center;
+        }
+            .main_bike_details_ul1 li{
+                width: 129px;
+                height: 112px;
+                line-height: 26px;
+                font-size: 18px;
+                color: #666666;
+                padding-top: 32px;
+                cursor: pointer;
+                background:url("../images/about1_HJLite/23.jpg") no-repeat 0 0;
+            }
+            .details_ul1_one,.details_ul1_two{
+                margin-right: 30px;
+            }
+            .main_bike_details_ul1 .details_ul1_current{
+                color: black;
+                background:url("../images/about1_HJLite/23.jpg") no-repeat -129px 0;
+            }
+        .main_bike_details_ul2{
+            position: relative;
+            width: 947px;
+            height: 487px;
+            margin:0 auto;
+            background: url("../images/about1_HJLite/detail.jpg") no-repeat;
+        }
+            .main_bike_details_ul2 li{
+                position: absolute;
+                height: 322px;
+                width: 372px;
+            }
+            .main_bike_details_ul2 li{
+                margin-left: 4px;
+                margin-top: 1px;
+                background: url("../images/about1_HJLite/pc.min_z.png") no-repeat;
+            }
+            .main_bike_details_ul2 .details_ul2_two{
+                margin-top:164px;
+                margin-left: 288px;
+            }
+            .main_bike_details_ul2 .details_ul2_three{
+                margin-left: 571px;
+            }
+            .main_bike_details_ul2 .details_ul2_current{
+                background: none;
+            }
+    /*保持肆意飞扬的细节*/
+    .main_bike_more{
+        height: 295px;
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+        .main_bike_more p{
+            font-size: 36px;
+            color: #4b4b4b;
+            width: 100%;
+            text-align: center;
+            line-height: 60px;
+        }
+        .main_bike_more p:last-child{
+            margin-top: 55px;
+        }
+
+    /*一点一点，成为不一样的自己*/
+    .main_bike_product1{
+        width: 100%;
+        height: 763px;
+        padding-top: 80px;
+        background-color: #333333;
+    }
+        .main_bike_product1_wrap{
+            width: 1240px;
+            margin:0 auto;
+        }
+        .product1_left{
+            width: 600px;
+            float: left;
+            margin-top: 80px;
+        }
+        .product1_right{
+            float: right;
+            margin-bottom: 100px;
+        }
+        .table_product_details{
+            margin-right: 10px;
+            width: 540px;
+            border-collapse: collapse;
+            color: #888;
+            font-size: 14px;
+            text-align: center;
+        }
+        .table_product_details tr{
+            font-size: 12px;
+        }
+        .table_product_details td{
+            padding: 10px 0 ;
+            border-bottom: 1px solid #555;
+        }
+        .table_product_details tr:last-child td{
+            border: medium none;
+        }
+        .table_product_first_td{
+            width: 235px;
+        }
+        .table_product_float_left{
+            text-align: left;
+        }
+        .table_product2_details{
+            margin-top: 30px;
+        }
+        .desc_circle{
+            background: #eee none repeat scroll 0 0;
+            border-radius: 24px;
+            color: #333;
+            display: inline-block;
+            height: 24px;
+            line-height: 24px;
+            text-align: center;
+            width: 24px;
+        }
+    .main_bike_product2{
+        width: 100%;
+        margin-top: 80px;
+        height: 691px;
+    }
+    .main_bike_product2_wrap{
+        width: 1240px;
+        margin:0 auto;
+    }
+        .product2_right .table_product_details td{
+            border-bottom: 1px solid #CCCCCC;
+            color: #333333;
+        }
+        .product1_right p{
+            margin-top:20px;
+            font-size: 12px;
+            color: #333;
+        }

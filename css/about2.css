@@ -1,0 +1,453 @@
+body{
+    font-family: 'PingFang SC';
+}
+img{
+    vertical-align: top;
+}
+.mian{}
+/*展示*/
+    .main_yinhe_show{
+        width: 100%;
+        height: 764px;
+        /*background-color: #666666;*/
+    }
+    .main_yinhe_show_wrap,.main_yinhe_weight_wrap,.main_yinhe_fun_wrap,.main_yinhe_far,
+    .main_yinhe_parameter_wrap{
+        width: 1240px;
+        margin:0 auto;
+    }
+    .main_yinhe_show_wrap{
+        position: relative;
+    }
+        .main_yinhe_show_left{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 660px;
+            margin-top: 30px;
+            z-index:50;
+        }
+            .main_yinhe_show_left h2{
+                font-size: 44px;
+                line-height: 44px;
+                padding-top: 83px;
+                color: #737373;
+                margin-bottom: 21px;
+                font-weight: 700;
+            }
+            .show_subtitle{
+                font-size: 24px;
+                margin-bottom: 30px;
+                color: #ccc;
+            }
+            .show_line{
+                display: block;
+                width: 230px;
+                height: 20px;
+                border-top: 1px solid #d5d5d5;
+                margin-bottom: 27px;
+            }
+            .show_desc{
+                font-size: 18px;
+                line-height: 18px;
+                margin-bottom: 12px;
+                color: #ccc;
+            }
+            .show_desc:first-child{
+                margin-top: 50px;
+            }
+            .show_price{
+                color: #333333;
+                margin: 30px 0 70px;
+            }
+            .show_price span{
+                font-size: 30px;
+                color: #ff1d1d;
+                font-weight: 700;
+            }
+            .buy_now{
+                display: block;
+                color: #333333;
+                width: 225px;
+                height: 57px;
+                line-height: 57px;
+                border-radius: 30px;
+                font-size: 18px;
+                text-align: center;
+                background-color: #fdd000;
+            }
+            .buy_now:hover{
+                background-color: #f2bd00;
+            }
+        .main_yinhe_show_right{
+            position: absolute;
+            width: 786px;
+            overflow: hidden;
+            top: 50px;
+            right: 0;
+        }
+            .show_img,.show_img1{
+                /*margin-left: -786px;*/
+                width: 3144px;
+            }
+            .show_img img,.show_img1 img{
+                float: left;
+            }
+
+            .show_circle{
+                width: 786px;
+                height: 50px;
+                margin-top: 20px;
+            }
+            .show_circle_wrap{
+                width: 180px;
+                margin:0 auto;
+            }
+                .circle{
+                    width: 20px;
+                    height: 20px;
+                    margin: 7px auto;
+                    border-radius: 50%;
+                }
+                .circle_blue,.circle_yellow,.circle_gray,.circle_white,.circle_cerulean,.circle_red{
+                    margin-top:30px;
+                    width: 36px;
+                    height: 36px;
+                    border-radius: 50%;
+                    float: left;
+                    text-align: center;
+                    vertical-align: middle;
+                    background-color: transparent;
+                    cursor: pointer;
+                }
+                .circle_blue,.circle_yellow,.circle_gray,.circle_cerulean{
+                    margin-right: 12px;
+                }
+                .circle_current.circle_blue{
+                    border: 1px solid #11c7cb;
+                }
+                .circle_current.circle_yellow{
+                    border: 1px solid #ffc100;
+                }
+                .circle_current.circle_gray{
+                    border: 1px solid #525252;
+                }
+                .circle_current.circle_white{
+                    border: 1px solid #525252;
+                }
+                .circle_current.circle_cerulean{
+                    border: 1px solid #769ee0;
+                }
+                .circle_current.circle_red{
+                    border: 1px solid red;
+                }
+                .circle_blue .circle{
+                    background-color: #11c7cb;
+                }
+                .circle_yellow .circle{
+                    background-color: #ffc100;
+                }
+                .circle_gray .circle{
+                    background-color: #525252;
+                }
+                .circle_white .circle{
+                    background-color: #ffffff;
+                    border: 1px solid #525252;
+                }
+                .circle_cerulean .circle{
+                    background-color: #769ee0;
+                }
+                .circle_red .circle{
+                    background-color: red;
+                }
+/*重量*/
+    .main_yinhe_weight{
+        height: 415px;
+        width: 100%;
+        background-color: #2d2c2e;
+    }
+        .weight{
+            width: 406px;
+            height: 415px;
+            text-align: center;
+            padding: 109px 0 0 0;
+            float: left;
+            border: 3px solid #2d2c2e;
+            color: #6b6a6b;
+        }
+            .weight_title{
+                margin-bottom: 50px;
+                font-size: 60px;
+            }
+            .weight_title span{
+                /*padding-left: 100px;*/
+                font-size: 89px;
+                font-weight: 700;
+                height: 89px;
+                line-height: 89px;
+            }
+            .weight_desc{
+                font-size: 24px;
+                line-height: 24px;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+            .weight:hover{
+                background-color: #1c1c1c;
+                border: 3px solid #fdd000;
+                color: #fdd000;
+            }
+/*新玩范*/
+    .main_yinhe_fun{
+        width: 100%;
+        height: 665px;
+        background: url("../images/about2_YHMINI/slogan_yinhemini.jpg")no-repeat center;
+    }
+/*pic*/
+    .main_yinhe_pic{
+        width: 100%;
+        height: 2160px;
+        background-color: #dddddd;
+    }
+        .pic_one{
+            width: 100%;
+            height: 1080px;
+            position: relative;
+            background: url("../images/about2_YHMINI/yinhe_mini_5.jpg")no-repeat center;
+        }
+            .pic_one_desc{
+                text-align: right;
+                width: 1240px;
+                position: absolute;
+                top: 140px;
+                left: 0;
+                right: 0;
+                margin: auto;
+                z-index: 10;
+            }
+            .pic_two_desc{
+                text-align: left;
+            }
+            .pic_title{
+                font-size: 44px;
+                color: #fff;
+                line-height: 44px;
+                margin-bottom: 16px;
+                font-weight: 200;
+            }
+            .pic_desc{
+                margin-top: 24px;
+                font-size: 16px;
+                color: #dedcdc;
+            }
+        .pic_two{
+            width: 100%;
+            height: 1080px;
+            position: relative;
+            background: url("../images/about2_YHMINI/yinhemini-move.jpg")no-repeat center;
+        }
+            .pic_two_desc .pic_desc,.pic_two_desc .pic_title{
+                color: white;
+            }
+/*带你去更多，更远的地方*/
+    .main_yinhe_far{
+        width: 100%;
+        height: 864px;
+        padding: 100px 0 50px;
+        background-color: white;
+    }
+        .main_yinhe_far_wrap{
+            text-align: center;
+        }
+        .main_yinhe_far span{
+            display: block;
+            width: 100px;
+            height: 20px;
+            border-top: 1px solid #b3b3b3;
+            margin: 0 auto 15px;
+        }
+        .far_title{
+            font-size: 44px;
+            line-height: 44px;
+            color: #000;
+            margin-bottom: 35px;
+            font-weight: 200;
+        }
+        .far_desc{
+            font-size: 16px;
+            color: #c2c2c2;
+            margin-bottom: 7px;
+        }
+    .far_bottom{
+    }
+        .far_bottom img{
+            width: 100%;
+            margin-top: 20px;
+        }
+/*与你一起将平凡的旅途变成曼妙风景*/
+    .main_yinhe_together{
+        width: 100%;
+        height: 1080px;
+        background-color: #88C366;
+    }
+        .together_one{
+            width: 100%;
+            height: 1080px;
+            position: relative;
+            background: url("../images/about2_YHMINI/yinhe_mini_51.jpg")no-repeat center;
+        }
+        .together_desc{
+            text-align: left;
+        }
+        .together_desc .pic_title,.together_desc .pic_desc{
+            color: #333333;
+        }
+/*!*截色涂装工艺*!
+    .main_yinhe_art{
+        width: 100%;
+        height: 2715px;
+        background-color: #FE705C;
+    }*/
+/*    图片轮播*/
+    .main_yinhe_carousel{
+        width: 100%;
+        height: 759px;
+        overflow: hidden;
+        position: relative;
+        background-color: #dddddd;
+    }
+        .carousel_list div{
+            float: left;
+        }
+        .carousel_list div img{
+            width: 100%;
+        }
+        .carousel_btn div{
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            left: 50%;
+            top: 50%;
+            margin-top: -22px;
+            z-index: 10;
+            cursor: pointer;
+        }
+        .carousel_btn_left{
+            margin-left: -620px;
+            background: url("../images/about2_YHMINI/carousel_btn/btn_l_active.png") no-repeat;
+        }
+        .carousel_btn_left_final{
+            background: url("../images/about2_YHMINI/carousel_btn/btn_l_gray.png") no-repeat;
+        }
+        .carousel_btn_right{
+            margin-left: 540px;
+            background: url("../images/about2_YHMINI/carousel_btn/btn_r_active.png") no-repeat;
+        }
+        .carousel_btn_right_final{
+            background: url("../images/about2_YHMINI/carousel_btn/btn_r_gray.png") no-repeat;
+        }
+/*参数*/
+    .main_yinhe_parameter{
+        width: 100%;
+        background-color: white;
+    }
+        .main_yinhe_parameter_wrap{
+            position: relative;
+            top: -80px;
+        }
+        .parameter_nav{
+            width: 1240px;
+            height: 80px;
+            line-height: 80px;
+            position: relative;
+            background: #fff;
+            z-index: 99;
+        }
+        .parameter_nav a{
+            display: block;
+            width: 620px;
+            line-height: 77px;
+            float: left;
+            font-size: 18px;
+            text-align: center;
+            border-bottom: 3px solid #fff;
+            color: #333;
+            border-right: 1px solid #d5d5d5;
+            box-sizing: border-box;
+        }
+        .parameter_nav .parameter_current{
+            border-bottom: 3px solid #fdd000;
+            box-sizing: border-box;
+        }
+        .content_wrap{
+            width: 1240px;
+            height: 635px;
+            margin: 0 auto;
+            overflow: hidden;
+            position: relative;
+        }
+        .content:last-child{
+            display: none;
+        }
+            .parameter_pic,.parameter_chose{
+                float: left;
+            }
+            .parameter_pic{
+                width: 740px;
+                height: 507px;
+                position: absolute;
+                top: 50px;
+                left: 10px;
+                overflow: hidden;
+            }
+        .parameter_chose{
+            width: 245px;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        .parameter_chose_one,.parameter_chose_two{
+            width: 243px;
+            height: 285px;
+            text-align: right;
+            padding: 20px;
+            opacity: .4;
+            filter: alpha(opacity=40);
+            border: 1px solid #b3b3b3;
+        }
+            .parameter_chose_one{
+                border: 1px solid #efb61e;
+                opacity: 1;
+            }
+            .chose_one_title{
+                font-size: 25px;
+                color: #000;
+                line-height: 25px;
+                padding-bottom: 16px;
+            }
+            .chose_one_subtitle{
+                font-size: 14px;
+                color: #020202;
+                line-height: 16px;
+                margin-bottom: 8px;
+            }
+            .chose_one_circle{
+                margin: 20px 0 60px;
+            }
+            .chose_one_price{
+                font-size: 25px;
+                color: #000;
+                font-weight: 700;
+                padding-top: 45px;
+            }
+        .parameter_chose_two{
+            opacity: .4;
+        }
+        .parameter_chose_two:hover{
+            opacity: 1;
+            border: 1px solid #efb61e;
+        }
+        .parameter_buy{
+            width: 225px;
+            margin: 20px auto 40px;
+        }

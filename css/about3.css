@@ -1,0 +1,110 @@
+main{}
+/*与生俱来的科技与美，奖心独具*/
+.main_yh2017_count_wrap,.main_yh2017_X7_wrap,.main_yh2017_desc_wrap{
+    width: 1240px;
+    margin:0 auto;
+}
+    .buy_yinhe2017{
+        margin-top: 120px;
+    }
+    .main_yh2017_glory{
+        width: 100%;
+        height: 1080px;
+        background-color: #FE705C;
+    }
+        .glory_pic1,.glory_pic2,.glory_pic3,.glory_pic4,.glory_pic5{
+            width: 100%;
+            height: 1080px;
+            position: relative;
+        }
+        .glory_pic1{
+            background: url("../images/about3_YH2017/glory/2017_2.jpg")no-repeat center;
+        }
+        .glory_pic2{
+            background: url("../images/about3_YH2017/glory/2017_3.jpg")no-repeat center;
+        }
+        .glory_pic3{
+            background: url("../images/about3_YH2017/glory/2017_4.jpg")no-repeat center;
+        }
+        .glory_pic4{
+            background: url("../images/about3_YH2017/glory/2017_5.jpg")no-repeat center;
+        }
+        .glory_pic5{
+            background: url("../images/about3_YH2017/glory/2017_6.jpg")no-repeat center;
+        }
+/*嵌入式智能终端 每一步，都记数*/
+    .main_yh2017_count{
+        width: 100%;
+        height: 1086px;
+    }
+        .count_one{
+            height: 552px;
+            width: 100%;
+        }
+        .count_left{
+            width: 440px;
+            height: 100%;
+            float: left;
+        }
+        .count_two{
+            height: 534px;
+            width: 100%;
+            background-color: #f5f5f5;
+        }
+        .count_two_wrap{
+            width: 1240px;
+            margin:0 auto;
+        }
+        .count_two .count_left{
+            text-align: right;
+        }
+            .count_left_title{
+                font-size: 42px;
+                color: #333;
+                font-weight: 200;
+                padding: 169px 0 38px;
+            }
+            .count_left_desc{
+                font-size: 16px;
+                color: #bbb;
+                line-height: 28px;
+            }
+        .count_right{
+            width: 800px;
+            height: 100%;
+            float: left;
+        }
+/*以动感名义全面升级*/
+/*碳纤维前叉坚固轻巧的灵敏转向*/
+    .main_yh2017_X7{
+        height: 1629px;
+        width: 100%;
+    }
+        .main_yh2017_X7 .count_one,.main_yh2017_X7 .count_two{
+            height: 543px;
+        }
+/*简单的设计,设计的不简单*/
+    .main_yh2017_desc{
+        width: 100%;
+        height: 238px;
+        background-color: white;
+    }
+        .main_yh2017_desc_wrap{
+            padding: 80px 0;
+        }
+            .main_yh2017_desc_wrap div{
+                width: 413px;
+                padding-right: 33px;
+                float: left;
+                color: #bbb;
+                line-height: 24px;
+            }
+            .desc_title{
+                color: #333;
+                margin-bottom: 6px;
+            }
+            .desc_desc{
+                color: #bbb;
+                line-height: 24px;
+            }
+

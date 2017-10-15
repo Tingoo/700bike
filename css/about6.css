@@ -1,0 +1,594 @@
+.main{}
+    .main_TK_product_wrap,.main_TK_details_wrap{
+        width: 1240px;
+        margin:0 auto;
+    }
+    h1,h2,h3,h4,h5{
+        font-weight: 400;
+    }
+
+/*OVERADE PLIXI FIT折叠头盔*/
+    .main_TK_product{
+        width: 100%;
+        height: 747px;
+        position: relative;
+        background-color: #F1F1F1;
+    }
+        .product_menu{
+            font-size: 14px;
+            color: #666;
+            padding: 15px 0 15px;
+        }
+            .product_menu a{
+                color: #666;;
+            }
+            .product_menu a:hover{
+                color: #f2bd00;
+            }
+        .product_left{
+            /*display: inline-block;*/
+        }
+            .product_left_img{
+
+                display: none;
+                position: absolute;
+            }
+            .product_left_current{
+                display: block;
+            }
+            .view_nav{
+                float: left;
+                margin-right: 10px;
+            }
+            .view_nav li{
+                list-style: none;
+                margin-bottom: 10px;
+                width: 94px;
+                height: 94px;
+                border: 3px solid transparent;
+                cursor: pointer;
+            }
+            .view_nav li img{
+                width: 100%;
+                height: 100%;
+            }
+            .view_nav .view_nav_li_active{
+                border: 3px solid #f2bd00;
+            }
+
+            .view_bigImg{
+                width: 600px;
+                height: 600px;
+                overflow: hidden;
+                line-height: 600px;
+                text-align: center;
+            }
+                .view_bigImg img{
+                    width: 100%;
+                    vertical-align: middle;
+                }
+
+            .view_share{
+                margin-left: 110px;
+                margin-top: 620px;
+                position: absolute;
+            }
+            .view_share .item{
+                float: left;
+                margin-right: 10px;
+                width: 48px;
+                height: 48px;
+                border-radius: 40px;
+                background-color: #fff;
+                -webkit-box-shadow: 0 2px 2px rgba(0,0,0,.1);
+                box-shadow: 0 2px 2px rgba(0,0,0,.1);
+                position: relative;
+            }
+            .view_share a{
+                display: inline-block;
+                width: 48px;
+                height: 48px;
+                background: url("../images/about6_TK/view_product/view-share.png");
+            }
+                .view_share .item_weixin{
+                    background-position: -121px -5px;
+                }
+                .view_share .item_weixin:hover{
+                    background-position: -179px -5px;
+                }
+                .view_share .item_weibo{
+                    background-position: -5px -5px;
+                }
+                .view_share .item_weibo:hover{
+                    background-position: -63px -5px;
+                }
+                .view_share .item_dianzan{
+                    background-position: -240px -5px;
+                }
+                .view_share .item_dianzan:hover{
+                    background-position: -294px -5px;
+                }
+        .product_right{
+            display: inline-block;
+            float: right;
+            margin-right: 30px;
+            width: 470px;
+            font-family: DINCond-Bold;
+        }
+            .product_right h1{
+                font-size: 30px;
+                color: #333;
+                text-align: center;
+            }
+            .product_right p{
+                padding-bottom: 10px;
+                font-size: 16px;
+                color: #666;
+                text-align: center;
+            }
+            .product_right .right_price{
+                padding-bottom: 0;
+                font-size: 34px;
+                line-height: 34px;
+                text-align: center;
+                margin-bottom: 30px;
+                color: #333!important;
+            }
+
+            .buy_info{
+                position: relative;
+                margin: 20px auto 20px;
+                width: 240px;
+                height: 64px;
+                font-size: 14px;
+                color: #666;
+            }
+            .buy-info li{
+                cursor: pointer;
+            }
+            .buy_info_btn{
+                /*width: 170px;*/
+                height: 64px;
+                line-height: 64px;
+                padding: 0 40px 0 30px;
+                border-radius: 64px;
+                border: 1px solid #ddd;
+                background-color: #fff;
+                cursor: pointer;
+            }
+            .buy_info_btn::after{
+                content: '';
+                position: absolute;
+                right: 30px;
+                top: 30px;
+                border-right: 6px solid transparent;
+                border-top: 8px solid #333;
+                border-left: 6px solid transparent;
+                cursor: pointer;
+            }
+            .buy_info_color{
+                border-color: #666;
+                background-color: #000000;
+                position: relative;
+                margin-right: 6px;
+                display: inline-block;
+                width: 32px;
+                height: 32px;
+                vertical-align: middle;
+                border-radius: 36px;
+                /*border: 2px solid #ddd;*/
+            }
+            .color_white span{
+                border: 2px solid #ddd !important;
+            }
+            .buy_info_color::after{
+                content: "";
+                display: inline-block;
+                width: 28px;
+                height: 28px;
+                border: 2px solid #fff;
+                border-radius: 28px;
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+            .buy_info_list_color li:hover .buy_info_color {
+                border-color: #666;
+            }
+            .buy-info-color-wrap li{
+                line-height: 40px !important;
+            }
+                .buy_info_list{
+                    position: absolute;
+                    z-index: 100;
+                    top: 0;
+                    left: 0;
+                    width: 240px;
+                    padding: 17px 30px;
+                    border-radius: 34px;
+                    border: 1px solid #ddd;
+                    background-color: #fff;
+                    min-height: 30px;
+                    display: none;
+                    text-overflow: ellipsis;
+                }
+                    .span_w{
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        display: block;
+                    }
+                .buy_info_list::after{
+                    content: '';
+                    position: absolute;
+                    right: 30px;
+                    top: 30px;
+                    border-right: 6px solid transparent;
+                    border-bottom: 8px solid #333;
+                    border-left: 6px solid transparent;
+                }
+                .buy_info_list li{
+                    line-height: 30px;
+                }
+                .buy_info_list .current{
+                    color: #f2bd00;
+                }
+            .buy_info_size{
+                float: left;
+                margin-right: 10px;
+                font-size: 24px;
+                font-style: normal;
+                font-family: DINCond-Bold;
+            }
+            /*数量*/
+            .buy_info_add,.buy_info_less{
+                width: 28px;
+                height: 64px;
+                cursor: pointer;
+            }
+            .buy_info_add{
+                position: absolute;
+                background: url("../images/about6_TK/view_product/buy-add.png") -18px 0;
+                right: 28px;
+            }
+            .buy_info input{
+                width: 124px;
+                height: 64px;
+                border: 0;
+                text-align: center;
+                font-size: 36px;
+                font-family: DINCond-Bold;
+                outline: 0;
+                background: 0 0;
+                color: #000;
+                margin-left: 29px;
+                line-height: 64px;
+                padding-left: 0;
+            }
+            .buy_info li{
+                cursor: pointer;
+            }
+                .buy_info .buy_info_btn_empty::after{
+                    border:0;
+                }
+            .buy_info_less{
+                position: absolute;
+                background: url("../images/about6_TK/view_product/buy-less.png") -18px 0;
+                left: 32px;
+                top: 2px;
+            }
+            .buy_now{
+                display: block;
+                color: #333333;
+                width: 240px;
+                height: 64px;
+                line-height: 64px;
+                border-radius: 30px;
+                font-size: 20px;
+                text-align: center;
+                background-color: #fdd000;
+            }
+            .buy_now:hover{
+                background-color: #f2bd00;
+            }
+            .buy_info_desc{
+                color: #666;
+                font-size: 12px;
+                text-align: center;
+            }
+        /*    遮罩*/
+        .mask{
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            left: 0;
+            top: 0;
+            display: none;
+            z-index: 100;
+            background: rgba(0,0,0,.3);
+        }
+        .bomb_box{
+            border-radius: 6px;
+            box-shadow: 0 0 8px rgba(0,0,0,.8);
+            background-color: #fff;
+            z-index: 600;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+            padding: 15px 30px;
+            text-align: center;
+            min-width: 249px;
+            display: none;
+        }
+            .box_content{
+                margin: 5px;
+            }
+            .box_btn{
+                height: 32px;
+                min-width: 110px;
+                line-height: 32px;
+                margin: 15px 5px 5px;
+                cursor: pointer;
+                display: inline-block;
+                border: 1px solid #ffcb05;
+                border-radius: 64px;
+                background: #ffcb05;
+                text-align: center;
+                font-size: 14px;
+                font-weight: bolder;
+                color: #4d3c09;
+                cursor: pointer;
+            }
+    /*产品描述*/
+    .main_TK_details{
+        width: 100%;
+        height: 5053px;
+    }
+        .main_TK_details_wrap{
+            padding: 62px 0;
+            /*margin: 40px auto 0;
+            border-top: 1px dotted #e0e0e0;*/
+            letter-spacing: .5px;
+        }
+        /*左*/
+        .details_left{
+            width: 300px;
+            float: left;
+        }
+        .details_left_wrap{
+            width: 298px;
+            margin-left: 2px;
+            border-radius: 5px;
+            box-shadow: 1px 1px 1px 2px rgba(238,238,238,.3);
+            margin-bottom: 28px;
+            border: 1px solid #eee;
+        }
+            /*人气推荐*/
+            .details_left_title{
+                padding: 0 14px;
+                height: 52px;
+                line-height: 52px;
+                color: #212121;
+                font-size: 18px;
+                border-bottom: 1px solid #eee;
+                font-weight: 700;
+            }
+            /*产品*/
+            .details_left_product{}
+                .details_left_product a:hover .des1{
+                    color: #ffc80a;
+                }
+                .product_item img{
+                    display: block;
+                    width: 272px;
+                    height: 272px;
+                    margin: 10px auto;
+                }
+                .product_details{
+                    width: 246px;
+                    margin: 0 auto;
+                    padding: 5px 12px 10px;
+                    overflow: hidden;
+                    border-bottom: 1px solid #e5e5e5;
+                }
+                    .des1{
+                        font-size: 16px;
+                        line-height: 20px;
+                        color: #262626;
+                        margin-bottom: 5px;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                    }
+                    .des2{
+                        font-size: 12px;
+                        color: #666;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                    }
+                    .price1{
+                        float: right;
+                        font-size: 14px;
+                        margin: 9px 5px 5px 0;
+                        color: #333;
+                        font-weight: 700;
+                    }
+        /*右*/
+        .details_right{
+            width: 854px;
+            float: left;
+            margin-left: 85px;
+        }
+            /*导航*/
+            .details_tab{
+                position: relative;
+                width: 854px;
+                height: 53px;
+            }
+            .details_nav{
+                width: 854px;
+                height: 53px;
+                background: #fff;
+                border-bottom: 2px solid #efefef;
+            }
+                .details_right .fixed{
+                    position: fixed;
+                    top: 0;
+                }
+                .details_nav a{
+                    display: block;
+                    width: 25%;
+                    text-align: center;
+                    float: left;
+                    line-height: 53px;
+                    height: 53px;
+                    font-size: 18px;
+                    color: #aaa;
+                }
+                .details_nav a.active{
+                    color: #ffc80a;
+                    border-bottom: 2px solid #ffc80a;
+                    font-weight: 700;
+                }
+            /*内容*/
+            .detail_content{}
+                .details_title{
+                    height: 48px;
+                    line-height: 48px;
+                    padding: 10px 0 0 38px;
+                    margin: 0 0 24px;
+                    font-size: 20px;
+                    color: #333;
+                    font-weight: 600;
+                }
+                    .details_title span{
+                        font-size: 18px;
+                        color: #aaa;
+                        font-weight: 100;
+                        margin-left: 10px;
+                    }
+                .details_info{
+                    background: #fafafa;
+                    overflow: hidden;
+                    padding: 15px 0;
+                    margin-bottom: 30px;
+                    border: 1px solid #eee;
+                    width: 854px;
+                }
+                    .details_info li{
+                        float: left;
+                        height: 38px;
+                        line-height: 38px;
+                        min-width: 50%;
+                        width: auto;
+                    }
+                    .details_info li span{
+                        line-height: 38px;
+                        max-width: 110px;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        float: left;
+                        margin: 0 18px 0 60px;
+                        font-size: 14px;
+                        color: #aaa;
+                    }
+                    .details_info li p{
+                        width: auto;
+                        max-width: 660px;
+                        line-height: 38px;
+                        float: left;
+                        color: #000;
+                        font-size: 14px;
+                        height: 38px;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                    }
+                .details_text{
+                    text-align: center;
+                    font-size: 12px;
+                    line-height: 26px;
+                    color: #333;
+                    width: 781px;
+                    margin: 0 auto;
+                }
+                    .details_text p{
+                        font-size: 12px;
+                        color: #333;
+                    }
+                    .details_text img{
+                        /*margin-bottom: 0;*/
+                        display: block;
+                        margin: 0 auto;
+                        /*margin-bottom: 25px;*/
+                        max-width: 100%;
+                    }
+                .questions{
+                    width: 781px;
+                    margin: 0 auto;
+                }
+                    .questions .show{
+                        background: #fafafa;
+                        border-top: 1px solid #ccc;
+                    }
+                    .questions li{
+                        line-height: 40px;
+                        padding: 20px 40px;
+                        border-bottom: 1px solid #eee;
+                        cursor: pointer;
+                    }
+                    .questions li:first-child{
+                        border-top: 1px solid #EEE;
+                    }
+                    .questions li span{
+                        display: block;
+                        width: 40px;
+                        height: 40px;
+                        float: left;
+                        margin-right: 10px;
+                        background: url("../images/about6_TK/product/right3/q.png") no-repeat center center;
+                    }
+                    .questions .question{
+                        width: 604px;
+                        float: left;
+                    }
+                        .questions li div.question p{
+                            line-height: 26px;
+                            font-size: 14px;
+                            padding: 7px 0;
+                        }
+                        .questions li:hover .question p{
+                            color: #ffc80a;
+                        }
+                        .answer{
+                            padding: 10px 20px;
+                            font-size: 12px;
+                            line-height: 22px;
+                            background: #fff;
+                            display: none;
+                            clear: both;
+                        }
+                    .questions .close{
+                        background: url("../images/about6_TK/product/right3/expend.png") no-repeat center center;
+                    }
+                    .questions .open{
+                        background: url("../images/about6_TK/product/right3/close.png") no-repeat center center;
+                    }
+                    .questions li em{
+                        display: block;
+                        width: 16px;
+                        height: 20px;
+                        float: left;
+                        margin: 7px 0 0 16px;
+                        font-weight: 400;
+                        font-style: normal;
+                    }
+                    .questions li::after{
+                        content: '';
+                        clear: both;
+                        height: 0;
+                    }

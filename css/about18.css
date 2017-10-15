@@ -1,0 +1,551 @@
+
+.main{}
+/*购买*/
+    .main_hjMR_buy{
+        height: 50px;
+        width: 100%;
+        position: relative;
+        top:0;
+        background: rgba(255,255,255,.8);
+        line-height: 50px;
+        z-index: 11;
+        min-width: 1240px;
+    }
+    .main_hjMR_buy_wrap{
+        width: 1240px;
+        margin:0 auto;
+    }
+        .buy_title{
+            color: #666;
+            float: left;
+            font-size: 14px;
+            margin-left: 0;
+        }
+        .main_hjMR_buy_wrap .main_buy_btn{
+            float: right;
+            margin-top: 10px;
+        }
+/*产品展示*/
+    .main_bike{
+        width: 100%;
+    }
+    .main_bike_wrap{
+        width: 1240px;
+        height: 550px;
+        margin:70px auto 100px;
+       /* background-color: #CCCCCC;*/
+    }
+        .main_bike_desc{
+            float: left;
+            width: 400px;
+            margin-top: 30px;
+        }
+        .main_bike_desc_last{
+            margin: 160px 0 0 100px;
+        }
+        .main_bike_desc p{
+            font-size: 18px;
+            margin: 15px 0 15px;
+            color: #222;
+            /*font-weight: 700;*/
+        }
+        .main_bike_desc p span{
+            font-size: 16px;
+            color: #666;
+            line-height: 30px;
+            font-weight: 400;
+        }
+        .main_bike_desc_title{
+            font-size: 48px;
+            line-height: 48px;
+            height: 48px;
+            font-weight: 400;
+            margin-bottom: 10px;
+        }
+        .main_bike_desc_subtitle{
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 24px;
+            height: 24px;
+        }
+        .main_bike_desc .main_bike_desc_content{
+            font-size: 16px;
+            width: 390px;
+            line-height: 23px;
+            color: #666;
+        }
+
+        .main_buy_btn{
+            height: 32px;
+            width: 100px;
+            line-height: 32px;
+            border-radius: 30px;
+            background-color: #ffcb05 ;
+            margin-top: 20px;
+            text-align: center;
+            cursor: pointer;
+        }
+        .main_buy_btn:hover{
+            background-color: #f2bd00;
+        }
+        .main_buy_btn a{
+            color: #444;
+            font-size: 14px;
+        }
+        .main_bike_img{
+            float: left;
+        }
+        .main_bike_img_last{
+            margin: 50px 0 50px 80px;
+        }
+.main_bike_bottom{
+    margin-left: 90px;
+    margin-top: 50px;
+    width: 300px;
+}
+
+    .main_bike_color{
+        height: 924px;
+        width: 100%;
+        /*margin: 80px auto 0;*/
+        background-color: #adf0ff;
+        /*padding: 200px 0 50px;*/
+        overflow: hidden;
+    }
+        .main_bike_color_img{
+            width: 850px;
+            height: 650px;
+            margin: 60px auto 30px;
+            overflow: hidden;
+            position: relative;
+        }
+        .main_bike_color_img ul{
+            width: 4550px;
+            margin-left: -3640px;
+        }
+        .main_bike_color_img li{
+            float: left;
+            margin-right: 60px;
+        }
+        /*.main_bike_color_img li:last-child{
+            display: none;
+        }*/
+        .main_bike_color_img img{
+            /*width: 100%;*/
+            width: 850px;
+        }
+        .main_hjMR_title h3{
+            width: 100%;
+            text-align: center;
+            font-size: 36px;
+            line-height: 56px;
+            margin-bottom: 10px;
+            color: #333;
+            font-weight: 400;
+        }
+        .main_bike_color_chose{
+            margin-top: 30px;
+        }
+        .main_bike_color_chose ul{
+
+            width: 550px;
+            margin:0 auto;
+        }
+        .main_bike_color_chose h2{
+            font-size: 60px;
+            color: #4b4b4b;
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: 400;
+        }
+        .main_bike_color_chose ul li{
+            float: left;
+            width: 92px;
+            height: 22px;
+            line-height: 20px;
+            text-align: center;
+            font-size: 14px;
+            margin-right: 18px;
+            position: relative;
+            cursor: pointer;
+            /*opacity: 0;*/
+        }
+            .main_color_current{
+            }
+            .main_color_current.main_bike_color_blue {
+                border-radius: 20px;
+                background-color: #5276B7;
+                line-height: 22px;
+                border-width: 0;
+                color: white;
+            }
+            .main_color_current.main_bike_color_white{
+                border: 1px solid #CCCCCC;
+                border-radius: 20px;
+                background-color: #ffffff;
+            }
+
+            .main_color_current.main_bike_color_black {
+                border-radius: 20px;
+                background-color: #000000;
+                line-height: 22px;
+                border-width: 0;
+                color: white;
+            }
+            .main_color_current.main_bike_color_pink {
+                border-radius: 20px;
+                background-color: #ffa4de;
+                line-height: 22px;
+                border-width: 0;
+                color: white;
+            }
+            .main_color_current.main_bike_color_red {
+                border-radius: 20px;
+                background-color: #f1000f;
+                line-height: 22px;
+                border-width: 0;
+                color: white;
+            }
+            .main_bike_color_white i,.main_bike_color_blue i,.main_bike_color_black i,.main_bike_color_pink i,.main_bike_color_red i{
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                border-radius: 20px;
+                border: 1px solid #CCCCCC;
+                float: left;
+                left: 0;
+            }
+            .main_bike_color_white i{
+                opacity: 1;
+                animation:opacity 600ms ease-in-out;
+                -o-animation:opacity 600ms ease-in-out;
+                -moz-animation:opacity 600ms ease-in-out;
+                -webkit-animation:opacity 600ms ease-in-out;
+                background-color: white;
+            }
+            .main_bike_color_blue i{
+                background-color: #5276B7;
+            }
+            .main_bike_color_black i{
+                background-color: #000000;
+            }
+            .main_bike_color_pink i{
+                background-color: #ffa4de;
+            }
+            .main_bike_color_red i{
+                background-color: #f1000f;
+            }
+            .main_color_current i{
+                animation:opacity 600ms ease-in-out;
+                -o-animation:opacity 600ms ease-in-out;
+                -moz-animation:opacity 600ms ease-in-out;
+                -webkit-animation:opacity 600ms ease-in-out;
+                opacity: 0;
+            }
+/*轮播*/
+    .main_mini_carousel{
+        width: 100%;
+        height: 800px;
+        position: relative;
+        overflow: hidden;
+        min-width: 1024px;
+    }
+        .carousel_img_list{
+            width: 100%;
+            height: 100%;
+        }
+            .carousel_img_list div{
+                z-index: 1;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+            }
+            .carousel_img1{
+                background: url("../images/about18_HJMini/carousel/img-2-1.jpg");
+            }
+            .carousel_img2{
+                background: url("../images/about18_HJMini/carousel/img-2-2.jpg");
+            }
+            .carousel_img3{
+                background: url("../images/about18_HJMini/carousel/img-2-3.jpg");
+            }
+            .carousel_img4{
+                background: url("../images/about18_HJMini/carousel/img-2-4.jpg");
+            }
+        .slider_prev,.slider_next{
+            width: 84px;
+            height: 84px;
+            display: block;
+            position: absolute;
+            z-index: 3;
+            background: url("../images/about18_HJMini/carousel/img-slider-btn.png");
+            left: 5%;
+            top: 48%;
+            cursor: pointer;
+        }
+        .slider_prev:hover,.slider_next:hover{
+            opacity: .7;
+        }
+        .slider_prev{
+            background-position: -84px 0;
+            left: inherit;
+            right: 5%;
+        }
+        .slider_next{
+
+        }
+        .carousel_circle_list{
+            position: absolute;
+            bottom: 10px;
+            z-index: 2;
+            width: 100%;
+            text-align: center;
+            padding: 0;
+        }
+            .carousel_circle_list div{
+                margin: 0 1%;
+                zoom: 1;
+                display: inline-block;
+                width: 16px;
+                height: 16px;
+                line-height: 40px;
+                overflow: hidden;
+                border-radius: 50%;
+                background-color: rgb(220,220,220);
+                cursor: pointer;
+                text-indent: 10em;
+            }
+            .carousel_circle_list div.active{
+                background-color: rgb(7,69,134);
+            }
+/*小轮乐趣收纳便利*/
+    .main_mini_small{
+        width: 100%;
+        height: 660px;
+        position: relative;
+        overflow: hidden;
+    }
+        .small_bike{
+            background: url("../images/about18_HJMini/carousel/img-3.png");
+            width: 949px;
+            height: 601px;
+            position: absolute;
+            top: 5%;
+            left: 50%;
+            margin-left: -700px;
+            z-index: 1;
+        }
+        .fadeInLeft{
+            -webkit-animation-name: fadeInLeft;
+            animation-name: fadeInLeft;
+        }
+        .animated{
+            -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+        }
+        .small_1,.small_2,.small_3{
+            width: 100%;
+            height: 220px;
+            position: relative;
+        }
+        .small_1{
+            background-color: #2ca6e0;
+        }
+        .small_2{
+            background-color: #e1e439;
+        }
+        .small_3{
+            background-color: #e74466;
+        }
+        .main_mini_small p{
+            font-size: 22px;
+            z-index: 3;
+            position: absolute;
+            left: 50%;
+            width: 150px;
+            color: #000;
+            letter-spacing: 2px;
+            margin: 80px 0;
+            line-height: 30px;
+        }
+        .main_mini_small p span{
+            font-size: 50px;
+        }
+        .small_1 p{
+            margin-left: 100px;
+        }
+        .small_2 p{
+            margin-left: 270px;
+        }
+        .small_3 p{
+            margin-left: 350px;
+        }
+
+    .main_mini_1{
+        height: 668px;
+        width: 100%;
+        position: relative;
+    }
+        .main_mini_1 .detail{
+            margin: 250px 0 0 100px;
+        }
+        .detail{
+            position: absolute;
+            left: 50%;
+            top: 0;
+            z-index: 2;
+            white-space: nowrap;
+        }
+        .detail h3{
+            font-size: 50px;
+            line-height: 50px;
+            font-weight: 400;
+        }
+        .detail p{
+            margin: 50px 0 0;
+            font-size: 20px;
+            line-height: 40px;
+        }
+        .main_mini_1 img{
+            margin-left: -1002px;
+        }
+        .article img{
+            position: absolute;
+            left: 50%;
+            top: 0;
+            z-index: 1;
+        }
+    .main_mini_2{
+        height: 345px;
+        width: 100%;
+        background-color: #f2f2f2;
+        position: relative;
+    }
+        .main_mini_2 .detail{
+            margin: 5% 0 0 -520px;
+        }
+        .main_mini_2 img{
+            width: 52%;
+            position: relative;
+            left: 0;
+            float: right;
+        }
+    .main_mini_3{
+        height: 668px;
+        width: 100%;
+        position: relative;
+    }
+        .main_mini_3 .detail{
+            margin: 200px 0 0 -500px;
+        }
+        .main_mini_3 img{
+            margin-left: 144px;
+        }
+    .main_mini_4{
+        height: 670px;
+        width: 100%;
+        background-color: #f8f8f8;
+        position: relative;
+    }
+        .main_mini_4 .detail{
+            margin: 200px 0 0 -400px;
+        }
+        .main_mini_4 img{
+            margin-left: -200px;
+        }
+    .main_mini_5{
+
+        position: relative;
+        height: 664px;
+        width: 100%;
+    }
+        .main_mini_5 .detail{
+            margin: 250px 0 0 100px;
+        }
+        .main_mini_5 img{
+            margin-left: -1002px;
+        }
+    .main_mini_6{
+        position: relative;
+        height: 670px;
+        width: 100%;
+        background-color: #f8f8f8;
+    }
+        .main_mini_6 .detail{
+            margin: 200px 0 0 -500px;
+        }
+        .main_mini_6 img{
+            margin-left: 0;
+        }
+    .main_mini_7{
+
+        position: relative;
+        height: 662px;
+        width: 100%;
+    }
+        .main_mini_7 .detail{
+            margin: 250px 0 0 50px;
+        }
+        .main_mini_7 img{
+            margin-left: -650px;
+        }
+    /*产品参数*/
+    .main_hjMR_para{
+        width: 100px;
+        /*height: 1631px;*/
+    }
+        .para_1{
+            width: 100%;
+            /*height: 605px;*/
+            background-color: #222222;
+        }
+        .para_2{
+            width: 100%;
+            /*height: 1026px;*/
+            background-color: #333333;
+        }
+        .para_1 img,.para_2 img{
+            width: 1348px;
+            margin:0 auto;
+        }
+    .main_mini_play{
+        width: 100%;
+    }
+        .main_mini_play .play_img{
+            width: 628px;
+            height: 154px;
+            display: block;
+            margin: 60px auto;
+        }
+        .play_pic{
+            width: 100%;
+            padding: 50px 0;
+            overflow: hidden;
+        }
+        .play_pic li{
+            float: left;
+            line-height: 0;
+            width: 16.666666666667%;
+            -webkit-transition: .2s;
+            -moz-transition: .2s;
+            transition: .2s;
+            -o-transition: .2s;
+        }
+        .play_pic li:hover{
+            transform: scale(1.2);
+            -ms-transform:scale(1.2);	/* IE 9 */
+            -moz-transform:scale(1.2);	/* Firefox */
+            -webkit-transform:scale(1.2);/* Safari 和 Chrome */
+            -o-transform:scale(1.2); /* Opera */
+        }
+        .play_pic li img{
+            width: 98%;
+            margin: 1%;
+        }

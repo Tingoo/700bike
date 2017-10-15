@@ -1,0 +1,420 @@
+.main{
+    height: 2444px;
+    width: 100%;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    .main_wrap{
+        width: 1240px;
+        position: relative;
+        margin: 40px auto;
+        padding: 0;
+    }
+    img{
+        border: 0;
+        vertical-align: middle;
+    }
+    .clear{
+        clear: both;
+    }
+    ul li{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+    }
+/*左 标志*/
+.main_new_left{
+    position: fixed;
+    left: calc((100% - 1080px)/2 + -50px);
+    z-index: 10;
+    width: 160px;
+    height: 172px;
+    background: url("../images/about9_tokyo/icon.png") no-repeat -355px 0;
+    text-align: right;
+}
+    .new_bar{
+        margin-top: 205px;
+    }
+        .new_bar a{
+            float: right;
+            display: block;
+            margin-bottom: 2px;
+            height: 32px;
+        }
+            .new_bar a.current_gif{
+                height: 47px;
+                margin-right: -200px;
+                animation: moveanimate .4s linear;
+                -ms-animation: moveanimate .4s linear;
+                -moz-animation: moveanimate .4s linear;
+                -webkit-animation: moveanimate .4s linear;
+                -o-animation: moveanimate .4s linear;
+            }
+            .new_bar a.current_gif1{
+
+                height: 47px;
+                margin-right: -320px;
+                animation: moveanimate1 .4s linear;
+                -ms-animation: moveanimate1 .4s linear;
+                -moz-animation: moveanimate1 .4s linear;
+                -webkit-animation: moveanimate1 .4s linear;
+                -o-animation: moveanimate1 .4s linear;
+            }
+            .new_bar1{
+                background: url("../images/about9_tokyo/gif/bar-nav1.gif") no-repeat;
+                width: 95px;
+            }
+                .new_bar1.current_gif{
+                    width: 370px;
+                    background: url("../images/about9_tokyo/gif/bar-nav-1.gif") no-repeat;
+                }
+            .new_bar2{
+                background: url("../images/about9_tokyo/gif/bar-nav2.gif") no-repeat;
+                width: 152px;
+            }
+                .new_bar2.current_gif{
+                    width: 450px;
+                    background: url("../images/about9_tokyo/gif/bar-nav-2.gif") no-repeat;
+                }
+            .new_bar3{
+                background: url("../images/about9_tokyo/gif/bar-nav3.gif") no-repeat;
+                width: 95px;
+            }
+                .new_bar3.current_gif{
+                    width: 370px;
+                    background: url("../images/about9_tokyo/gif/bar-nav-3.gif") no-repeat;
+                }
+            .new_bar4{
+                background: url("../images/about9_tokyo/gif/bar-nav4.gif") no-repeat;
+                width: 79px;
+            }
+                .new_bar4.current_gif{
+                    width: 280px;
+                    background: url("../images/about9_tokyo/gif/bar-nav-4.gif") no-repeat;
+                }
+            .new_bar5{
+                background: url("../images/about9_tokyo/gif/bar-nav5.gif") no-repeat;
+                width: 95px;
+            }
+                .new_bar5.current_gif{
+                    width: 426px;
+                    background: url("../images/about9_tokyo/gif/bar-nav-5.gif") no-repeat;
+                }
+            .new_bar6{
+                background: url("../images/about9_tokyo/gif/bar-nav6.gif") no-repeat;
+                width: 180px;
+            }
+                .new_bar6.current_gif1{
+                    width: 540px;
+                    background: url("../images/about9_tokyo/gif/bar-nav-6.gif") no-repeat;
+                }
+            .new_bar7{
+                background: url("../images/about9_tokyo/gif/bar-nav7.gif") no-repeat;
+                width: 157px;
+            }
+                .new_bar7.current_gif1{
+                    width: 560px;
+                    background: url("../images/about9_tokyo/gif/bar-nav-7.gif") no-repeat;
+                }
+@keyframes moveanimate1 {
+    from {
+        margin-right: 0
+    }
+    to {
+        margin-right: -320px
+    }
+}
+
+@-moz-keyframes moveanimate1 {
+    from {
+        margin-right: 0
+    }
+    to {
+        margin-right: -320px
+    }
+}
+
+@-webkit-keyframes moveanimate1 {
+    from {
+        margin-right: 0
+    }
+    to {
+        margin-right: -320px
+    }
+}
+
+@-o-keyframes moveanimate1 {
+    from {
+        margin-right: 0
+    }
+    to {
+        margin-right: -320px
+    }
+}
+
+@-webkit-keyframes moveanimate1 {
+    from {
+        margin-right: 0
+    }
+    to {
+        margin-right: -320px
+    }
+}
+
+@keyframes moveanimate {
+    from {
+        margin-right: 0
+    }
+    to {
+        margin-right: -200px
+    }
+}
+
+@-moz-keyframes moveanimate {
+    from {
+        margin-right: 0
+    }
+    to {
+        margin-right: -200px
+    }
+}
+
+@-webkit-keyframes moveanimate {
+    from {
+        margin-right: 0
+    }
+    to {
+        margin-right: -200px
+    }
+}
+
+@-o-keyframes moveanimate {
+    from {
+        margin-right: 0
+    }
+    to {
+        margin-right: -200px
+    }
+}
+
+@-webkit-keyframes moveanimate {
+    from {
+        margin-right: 0
+    }
+    to {
+        margin-right: -200px
+    }
+}
+    .new_url{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+    }
+/*右 展示*/
+.main_new_right{
+    float: right;
+    width: 1080px;
+}
+    .new_header img{
+        width: 1080px;
+        height: 580px;
+    }
+    .new_content{
+        background: #f7f7f5;
+        padding: 0 50px 50px;
+        margin-top: -4px;
+    }
+        /*导航*/
+        .content_nav{
+            padding: 30px 0 20px;
+            font: 30px "DIN Condensed",Impact;
+            zoom: 1;/*放大缩小*/
+        }
+            .content_nav div{
+                height: 4px;
+                margin-top: 65px;
+                border-top: 2px solid #444;
+                border-bottom: 1px solid #444;
+            }
+            .content_nav a.current_nav{
+                color: #333;
+            }
+            .content_nav a{
+                display: block;
+                float: left;
+                height: 45px;
+                line-height: 65px;
+                padding: 0 30px;
+                border-left: 1px solid #ddd;
+                color: #666;
+            }
+            .content_nav a:hover{
+                color: #333;
+            }
+            .content_nav a:first-child{
+                border-left: 0;
+                margin-left: 200px;
+            }
+        .clearfix{
+            zoom:1;
+        }
+        .clearfix::after{
+            content: ".";
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden;
+        }
+        .mainbav_fixed{
+            position: fixed;
+            top: 0;
+            z-index: 100;
+            margin-left: -50px;
+            width: 1080px;
+            background: #F7F7F5;
+        }
+        /*内容*/
+        .content_views{
+            margin-top: 4px;
+            padding-top: 30px;
+            zoom: 1;
+            display: none;
+        }
+        .current_view{
+            display: block;
+        }
+            .sports_content{
+                padding-bottom: 30px;
+                margin-bottom: 30px;
+                border-bottom: 1px dashed #ccc;
+            }
+                .fr{
+                    float: right;
+                }
+            .content_views ul{
+                float: left;
+                margin-left: 40px;
+                width: 300px;
+                list-style-type: none;
+            }
+            .content_views ul:first-child{
+                margin-left: 0;
+            }
+            .content_views li{
+                margin-bottom: 40px;
+            }
+            .content_views p{
+                font: 13px courier;
+                padding-top: 6px;
+                color: #333;
+            }
+        /*part of it*/
+        .part_wrap{
+            width: 980px;
+            text-align: center;
+            color: #333;
+        }
+            .part_top{
+                height: 82px;
+                background: url(../images/about9_tokyo/sports/bepart-img1.png) no-repeat center;
+                margin-bottom: 40px;
+            }
+            .part_top h1{
+                margin-bottom: 30px;
+                height: 65px;
+                font: 80px DINCond-Black;
+            }
+            .part_line{
+                height: 33px;
+                background: url(../images/about9_tokyo/sports/bepart-line.png) no-repeat center;
+            }
+            .part_title{
+                margin: 30px 0 40px;
+            }
+                .part_title p{
+                    font: 34px "冬青黑w6";
+                }
+            .part_summary{
+                margin-bottom: 30px;
+            }
+                .part_summary p{
+
+                    font-size: 18px;
+                    line-height: 22px;
+                }
+            .part_mr40{
+                margin-top: 40px;
+            }
+            .part_wrap img{
+                width: 100%;
+                margin-top: 30px;
+            }
+            .part_wrap_content{
+                margin-top: 44px;
+                line-height: 22px;
+            }
+                .part_wrap_content h2{
+                    margin-bottom: 10px;
+                    height: 35px;
+                    font: 36px "冬青黑w6";
+                }
+                .part_content_date{
+                    line-height: 22px;
+                    margin-top: 44px;
+                }
+                .part_content_date span{
+                    display: block;
+                    margin: 20px auto 0;
+                    width: 480px;
+                    border-top: 2px dotted #333;
+                }
+                .part_content_date strong{
+                    display: block;
+                    margin: -10px auto 0;
+                    padding: 0 26px;
+                    width: 194px;
+                    background: #F7F7F5;
+                    font: 18px "冬青黑w6";
+                }
+                .part_wrap_content .date_img{
+                    width: 869px ;
+                    height: 262px;
+                    margin: 0 auto;
+
+                }
+
+.footer{
+    width: 100%;
+    height: 80px;
+    background: #2d2d2d;
+    line-height: 80px;
+}
+    .footer_wrap{
+        width: 1240px;
+        margin:0 auto;
+    }
+    .footer_wrap li{
+        width: 100px;
+        height: 30px;
+        font-size: 14px;
+        color: #666;
+        float: left;
+    }
+    .footer_wrap a{
+        font-size: 14px;
+        color: #666;
+    }
+    .footer_wrap a:hover{
+        color: #ffc80a;
+    }
+    .footer_wrap span{
+        float: right;
+        font-size: 14px;
+        color: #666;
+    }

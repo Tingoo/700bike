@@ -1,0 +1,432 @@
+
+.main{}
+/*购买*/
+    .main_hjMR_buy{
+        height: 50px;
+        width: 100%;
+        position: relative;
+        top:0;
+        background: rgba(255,255,255,.8);
+        line-height: 50px;
+        z-index: 11;
+        min-width: 1240px;
+    }
+    .main_hjMR_buy_wrap{
+        width: 1240px;
+        margin:0 auto;
+    }
+        .buy_title{
+            color: #666;
+            float: left;
+            font-size: 14px;
+            margin-left: 0;
+        }
+        .main_hjMR_buy_wrap .main_buy_btn{
+            float: right;
+            margin-top: 10px;
+        }
+/*产品展示*/
+    .main_bike{
+        width: 100%;
+    }
+    .main_bike_wrap{
+        width: 1240px;
+        height: 408px;
+        margin:70px auto 100px;
+       /* background-color: #CCCCCC;*/
+    }
+        .main_bike_desc{
+            float: left;
+            width: 400px;
+            margin-top: 60px;
+        }
+        .main_bike_desc_last{
+            margin: 160px 0 0 100px;
+        }
+        .main_bike_desc p{
+            font-size: 36px;
+            margin:60px 0 20px;
+        }
+        .main_bike_desc p span{
+            font-size: 18px;
+        }
+        .main_bike_desc_title{
+            font-size: 48px;
+            line-height: 48px;
+            height: 48px;
+            font-weight: 400;
+            margin-bottom: 10px;
+        }
+        .main_bike_desc_subtitle{
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 24px;
+            height: 24px;
+        }
+        .main_bike_desc .main_bike_desc_content{
+            font-size: 16px;
+            width: 390px;
+            line-height: 23px;
+            color: #666;
+        }
+
+        .main_buy_btn{
+            height: 32px;
+            width: 100px;
+            line-height: 32px;
+            border-radius: 30px;
+            background-color: #ffcb05 ;
+            margin-top: 20px;
+            text-align: center;
+            cursor: pointer;
+        }
+        .main_buy_btn:hover{
+            background-color: #f2bd00;
+        }
+        .main_buy_btn a{
+            color: #444;
+            font-size: 14px;
+        }
+        .main_bike_img{
+            float: left;
+        }
+        .main_bike_img_last{
+            margin: 50px 0 50px 80px;
+        }
+    .main_bike_our{
+        width: 100%;
+        height: 491px;
+        position: relative;
+        background:url("../images/about5_HJMiniRoad/houjie-Mini-Road_2.jpg") no-repeat center;
+    }
+        .main_bike_our h2{
+            position: absolute;
+            left: 24%;
+            top: 39%;
+            font-size: 48px;
+            line-height: 70px;
+            font-weight: 400;
+            color: #333;
+            text-shadow: 0 0 40px rgba(0,0,0,.3);
+        }
+    .main_bike_color{
+        height: 688px;
+        width: 1240px;
+        margin: 80px auto 0;
+    }
+        .main_bike_color_img{
+            width: 640px;
+            height: 420px;
+            margin: 60px auto 30px;
+            overflow: hidden;
+        }
+        .main_bike_color_img li:last-child{
+            display: none;
+        }
+        .main_hjMR_title h3{
+            width: 100%;
+            text-align: center;
+            font-size: 36px;
+            line-height: 56px;
+            margin-bottom: 10px;
+            color: #333;
+            font-weight: 400;
+        }
+        .main_bike_color_chose{
+            /*height: 210px;*/
+           /* background-color: #8bece0;*/
+        }
+        .main_bike_color_chose ul{
+
+            width: 194px;
+            margin:0 auto;
+        }
+        .main_bike_color_chose h2{
+            font-size: 60px;
+            color: #4b4b4b;
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: 400;
+        }
+        .main_bike_color_chose ul li{
+            float: left;
+            width: 92px;
+            height: 22px;
+            line-height: 20px;
+            text-align: center;
+            font-size: 14px;
+            margin-right: 5px;
+            position: relative;
+            cursor: pointer;
+        }
+            .main_color_current{
+            }
+            .main_color_current.main_bike_color_blue {
+                border-radius: 20px;
+                background-color: #5276B7;
+                line-height: 22px;
+                border-width: 0;
+                color: white;
+            }
+            .main_color_current.main_bike_color_white{
+                border: 1px solid #CCCCCC;
+                border-radius: 20px;
+            }
+            .main_bike_color_white i,.main_bike_color_blue i{
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                border-radius: 20px;
+                border: 1px solid #CCCCCC;
+                float: left;
+                left: 0;
+            }
+            .main_bike_color_white i{
+                opacity: 1;
+                animation:opacity 600ms ease-in-out;
+                -o-animation:opacity 600ms ease-in-out;
+                -moz-animation:opacity 600ms ease-in-out;
+                -webkit-animation:opacity 600ms ease-in-out;
+                background-color: white;
+            }
+            .main_bike_color_blue i{
+                background-color: #5276B7;
+            }
+            .main_color_current i,.main_color_current i{
+                animation:opacity 600ms ease-in-out;
+                -o-animation:opacity 600ms ease-in-out;
+                -moz-animation:opacity 600ms ease-in-out;
+                -webkit-animation:opacity 600ms ease-in-out;
+                opacity: 0;
+            }
+/*当速度成为一种追求*/
+    .main_hjMR_speed{
+        width: 100%;
+        height: 515px;
+        background-color: #ffcb05;
+    }
+        .main_hjMR_speed_wrap{
+            /*width: 570px;*/
+            text-align: center;
+            float: left;
+        }
+        .speed_desc{
+            margin: 200px 0 0 80px;
+        }
+        .speed_img{
+            float: right;
+            width: 50%;
+            min-width: 780px;
+        }
+   /*     钢架、碳叉*/
+    .main_hjMR_details{
+        width: 100%;
+        height: 700px;
+        background-color: #F4F4F4;
+    }
+    .main_hjMR_details_wrap{
+        width: 1240px;
+        margin:0 auto;
+    }
+        .detail_hover{
+            position: relative;
+        }
+            .detail_hover img{
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+            }
+            .detail_hover a{
+                position: absolute;
+                left: 0;
+                top: 0;
+                display: block;
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                background: rgba(0,0,0,.5);
+                -webkit-transition: background .2s ease-in-out;
+                transition: background .2s ease-in-out;
+            }
+            .detail_hover a:hover{
+                box-shadow: 0 0 40px rgba(0,0,0,.2);
+                background: transparent;
+            }
+        .detail_gallery{
+            width: 100%;
+            text-align: center;
+        }
+            .detail_gallery li{
+                width: 380px;
+                list-style: none;
+                margin-top: 100px;
+                display: inline-block;
+            }
+            .detail_gallery li:first-child{
+                margin-right: 100px;
+            }
+                .detail_gallery li h3{
+                    margin-top: 40px;
+                    font-size: 24px;
+                    color: #333;
+                    margin-bottom: 14px;
+                    font-weight: 400;
+                }
+                .detail_gallery li p{
+                    font-size: 14px;
+                    color: #666;
+                    line-height: 21px;
+                }
+                .detail_gallery li:last-child p{
+                    width:80%;
+                    margin: 0 auto;
+                }
+/*公路弯把*/
+.main_hjMR_details_wrap{
+    position: relative;
+}
+    .main_hjMR_details_wrap .details_ul_img_one{
+        list-style: none;
+        position: absolute;
+        opacity: 0;
+        transition: opacity .2s linear;
+    }
+    .main_hjMR_details_wrap ul  li.details_ul_img_current{
+        opacity: 1;
+        transition: opacity .5s linear;
+    }
+        .details_ul_img{
+            position: absolute;
+            left:0;
+            top: 84px;
+        }
+        .details_div_desc{
+            position: absolute;
+            text-align: right;
+            right: 0;
+            top: 30px;
+        }
+            .details_div_desc p{
+                width: 440px;
+                font-size: 16px;
+                color: #666;
+                line-height: 28px;
+                margin-top: 30px;
+            }
+            .details_div_desc .details_div_desc_title{
+                font-size: 48px;
+                color: #333;
+                margin-top: 100px;
+            }
+        .details_ul_imgsmall{
+            position: absolute;
+            right: 0;
+            top: 450px;
+        }
+            .details_ul_imgsmall li{
+                list-style: none;
+                float: left;
+                position: relative;
+                width: 110px;
+                height: 110px;
+            }
+            .details_ul_imgsmall li:last-child{
+                margin-left: 20px;
+            }
+            .details_ul_imgsmall li a{
+                position: absolute;
+                left: 0;
+                top: 0;
+                display: block;
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                background: rgba(0,0,0,.5);
+                -webkit-transition: background .2s ease-in-out;
+                transition: background .2s ease-in-out;
+            }
+                .details_ul_imgsmall li a.details_ul_imgsmall_current{
+                    background: rgba(0,0,0,.0);
+                    box-shadow: 0 0 40px rgba(0,0,0,.2);
+                }
+            .details_ul_imgsmall li img{
+                border-radius: 50%;
+                width: 110px;
+                height: 110px;
+            }
+/*公路后拨10速飞轮*/
+    .main_hjMR_circle3{
+        width: 100%;
+        height: 645px;
+       /* background-color: #FE705C;*/
+    }
+        .main_hjMR_circle3 .detail_gallery li:first-child{
+            margin:0;
+        }
+        .main_hjMR_circle3_wrap .detail_gallery li:nth-child(2){
+            margin: 0 50px;
+        }
+/*中轴*/
+    .main_hjMR_axis{
+        width: 100%;
+        height: 710px;
+        background-color: white;
+    }
+        .main_hjMR_axis_wrap{
+            width: 1240px;
+            margin:0 auto;
+        }
+        .main_hjMR_axis .detail_gallery li:last-child p{
+            width: 100%;
+        }
+/*凯夫拉防刺轮胎*/
+    .main_hjMR_tyre{
+        width: 100%;
+        height: 700px;
+        background-color: #F4F4F4;
+    }
+        .main_hjMR_tyre_wrap{
+            width: 1240px;
+            margin:0 auto;
+        }
+        .main_hjMR_tyre_wrap div{
+            float: left;
+        }
+        .tyre_left{
+            margin-top: 80px;
+            margin-left: 160px;
+        }
+        .tyre_right{
+            margin-left: 80px;
+        }
+        .tyre_right p{
+            width: 440px;
+            font-size: 16px;
+            color: #666;
+            line-height: 28px;
+            margin-top: 20px;
+        }
+        .tyre_right .tyre_right_title{
+            font-size: 48px;
+            color: #333;
+            margin-top: 300px;
+        }
+    /*产品参数*/
+    .main_hjMR_para{
+        width: 100px;
+        height: 1631px;
+    }
+        .para_1{
+            width: 100%;
+            height: 605px;
+            background-color: #222222;
+        }
+        .para_2{
+            width: 100%;
+            height: 1026px;
+            background-color: #333333;
+        }
+        .para_1 img,.para_2 img{
+            width: 1347px;
+            margin:0 auto;
+        }

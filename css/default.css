@@ -1,0 +1,376 @@
+body{
+    width: 100%;
+    min-width: 1240px;
+    font-family: Arial,"Hiragino Sans GB","Microsoft YaHei","微软雅黑",STHeiti,"WenQuanYi Micro Hei",SimSun,sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: top;
+}
+h4{
+    font-family: proxima_nova_rgbold,Helvetica,Arial;
+    font-weight: 400;
+}
+ul li{
+    list-style: none;
+}
+.clear{
+    clear: both;
+}
+.header{
+    width: 100%;
+    /*background-color: #CCCCCC;*/
+}
+.header_wrap{
+    width: 1240px;
+    margin: 0 auto;
+    height: 100px;
+    padding-top: 10px;
+}
+.logo{
+    width: 58px;
+    height: 80px;
+    float: left;
+    background: url("../images/header/iconMerge_669a29d.png") 0 21px no-repeat;
+}
+.header_menu{
+    margin-left: 100px;
+}
+.header_menu li{
+    float: left;
+    width: 100px;
+    text-align: center;
+    list-style: none;
+}
+.header_menu li .header_menu_top{
+    line-height: 80px;
+}
+.header_menu li a{
+    color: #666666;
+}
+.header_menu li a:hover{
+    color:#f2bd00;
+}
+.header_menu li a.hoverYellow{
+    color:#f2bd00;
+}
+/*自行车*/
+.header_bike{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    border-top: 1px solid #dddddd;
+    box-shadow: #666666;
+    background-color: white;
+    box-shadow: 0px 3px 4px 0 rgba(0,0,0,0.1);
+    display: none;
+    z-index: 999;
+}
+.header_bike_wrap{
+    width: 1240px;
+    margin:0 auto;
+    font-size: 14px;
+}
+.header_bike_wrap a,.header_bike_wrap{
+    color: #666666;
+}
+.header_bike_wrap ul li{
+    padding-top: 40px ;
+    margin-right: 55px;
+    text-align: center;
+    list-style: none;
+    float: left;
+    width: 120px;
+}
+.header_bike_wrap div{
+    width: 120px;
+}
+.header_bike_wrap a p{
+    font-size: 14px;
+    margin-top: 70px;
+}
+.header_bike_1{
+    width: 120px;
+}
+.header_bike_1 .header_bike_info{
+    background: url("../images/header/hover2.png") 0 0 no-repeat;
+}
+.header_bike_2 .header_bike_info{
+    background: url("../images/header/hover2.png") 0 -70px no-repeat;
+}
+.header_bike_3 .header_bike_info{
+    background: url("../images/header/hover2.png") 0 -140px no-repeat;
+}
+.header_bike_4 .header_bike_info{
+    background: url("../images/header/hover2.png") 0 -210px no-repeat;
+}
+.header_bike_5 .header_bike_info{
+    background: url("../images/header/hover2.png") 0 -214px no-repeat;
+}
+.header_bike_6 .header_bike_info{
+    background: url("../images/header/hover2.png") 0 -352px no-repeat;
+}
+.header_bike_7 .header_bike_info{
+    background: url("../images/header/hover2.png") 0 -420px no-repeat;
+}
+
+.header_bike_1 .header_bike_info:hover{
+    color: #f2bd00;
+    background: url("../images/header/hover2.png") -122px 0 no-repeat;
+}
+.header_bike_2 .header_bike_info:hover{
+    background: url("../images/header/hover2.png") -123px -70px no-repeat;
+    color: #f2bd00;
+}
+.header_bike_3 .header_bike_info:hover{
+    background: url("../images/header/hover2.png") -122px -140px no-repeat;
+    color: #f2bd00;
+}
+.header_bike_4 .header_bike_info:hover{
+    background: url("../images/header/hover2.png") -123px -210px no-repeat;
+    color: #f2bd00;
+}
+.header_bike_5 .header_bike_info:hover{
+    background: url("../images/header/hover2.png") -123px -214px no-repeat;
+    color: #f2bd00;
+}
+.header_bike_6 .header_bike_info:hover{
+    background: url("../images/header/hover2.png") -122px -352px no-repeat;
+    color: #f2bd00;
+}
+.header_bike_7 .header_bike_info:hover{
+    background: url("../images/header/hover2.png") -121px -420px no-repeat;
+    color: #f2bd00;
+}
+
+.header_bike_info{
+    display: inline-block;
+    width: 120px;
+    height: 70px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.header_bike_info div{
+    position: absolute;
+    padding-top: 85px;
+}
+.header_bike_btn{
+    margin-top: 28px;
+}
+.header_bike_btn a{
+    padding: 3px 8px;
+    border-radius: 10px;
+    background-color: #ffcb05;
+    font-size: 12px;
+    margin:0 auto;
+}
+.header_bike_wrap .header_bike_btn a:hover{
+    color: #666666;
+}
+
+/*好物*/
+.header_thing{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    border-top: 1px solid #dddddd;
+    box-shadow: #666666;
+    background-color: white;
+    box-shadow: 0px 3px 4px 0 rgba(0,0,0,0.1);
+    display: none;
+    z-index: 999;
+}
+.header_thing_wrap{
+    width: 1240px;
+    margin:0 auto;/*
+            font-size: 14px;*/
+}
+.header_thing_wrap a{
+    color: #666666;
+}
+.header_thing_wrap a:hover{
+    color: #ffcb05;
+}
+.header_thing_wrap .header_thing_title{
+    color: #ffcb05;
+}
+.header_thing_wrap ul{
+    margin-top: 20px;
+}
+.header_thing_wrap ul li{
+    list-style: none;
+    float: left;
+    width: 88px;
+    text-align: left;
+}
+.cart{
+    float: right;
+    margin-top: 30px;
+    /* margin-right: 14px; */
+    width: 36px;
+    height: 24px;
+    background: url(../images/header/iconMerge_669a29d.png) -100px 0 no-repeat;
+}
+    .back{
+        background: url("../images/header/iconMerge_669a29d.png") no-repeat 0 -214px;
+        border-radius: 64px;
+        bottom: 100px;
+        box-shadow: 0 2px 3px -1px rgba(0,0,0,.2);
+        cursor: pointer;
+        opacity: 0;
+        height: 64px;
+        position: fixed;
+        right: 20px;
+        width: 64px;
+        z-index: 9;
+
+        transition: opacity 500ms linear;
+        -moz-transition: opacity 500ms linear; /* Firefox 4 */
+        -webkit-transition: opacity 500ms linear; /* Safari 和 Chrome */
+        -o-transition: opacity 500ms linear; /* Opera */
+    }
+    .back:hover{
+        box-shadow: 0 2px 10px rgba(0,0,0,.2);
+    }
+    .back.show{
+        opacity: 1;
+        transition: opacity 500ms linear;
+        -moz-transition: opacity 500ms linear; /* Firefox 4 */
+        -webkit-transition: opacity 500ms linear; /* Safari 和 Chrome */
+        -o-transition: opacity 500ms linear; /* Opera */
+    }
+
+.footer{
+    width: 100%;
+    background-color: #1d1d1d;
+}
+.footer_wrap{
+    width: 1240px;
+    margin: 0 auto;
+    padding-top: 55px;
+    height: 279px;
+    /*background-color: #CCCCCC;*/
+}
+.footer_left{
+    /*display: inline-block;*/
+    float: left;
+    width: 221px;
+    height: 74px;
+    margin-right: 240px;
+    /*margin-right: 70px;*/
+    background: url("../images/header/iconMerge_669a29d.png") no-repeat right bottom;
+}
+.footer_center{
+    /*display: inline-block;*/
+    float: left;
+    text-align: left;
+}
+.footer_center table th,.footer_center table td{
+    width: 120px;
+}
+.footer_center table th{
+    color: white;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+.footer_center table td a{
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    color: #999999;
+}
+.footer_center table td a:hover{
+    color: #ffcb05;
+}
+.footer_copy{
+    font-size: 12px;
+    margin-top:50px;
+    color: #999999;
+}
+.footer_right{
+    float: right;
+}
+.footer_right p{
+    color: #999;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 5px;
+}
+.footer_right_btn{
+    font-size: 14px;
+    height: 42px;
+    width: 142px;
+    line-height: 40px;
+    border-radius: 64px;
+    border: 1px solid #333;
+    background-color: #252525;
+    margin: 0 auto;
+    cursor: pointer;
+    display: inline-block;
+}
+.footer_right_btn a{
+    color: #ffcb05;
+}
+.footer_right_btn i{
+    width: 23px;
+    height: 24px;
+    float: left;
+    margin: 8px 10px 0 25px;
+    background: url("../images/header/iconMerge_669a29d.png")no-repeat -597px 0;
+}
+.footer_right_btn:hover{
+    background-color: #ffcb05;
+}
+.footer_right_btn:hover a{
+    color: #222;
+}
+.footer_right_btn:hover a i{
+    background: url("../images/header/iconMerge_669a29d.png")no-repeat -621px 0;
+}
+.weixin,.weibo{
+    display: inline-block;
+    margin:0 10px;
+}
+.weixin a{
+    padding-top: 7px;
+    padding-left: 31px;
+    position: relative;
+    background: url("../images/header/iconMerge_669a29d.png")no-repeat -740px 0;
+}
+.weixin a:hover{
+    background-position: -709px 0;
+}
+.weibo a{
+    padding-top: 7px;
+    padding-left: 31px;
+    background: url("../images/header/iconMerge_669a29d.png")no-repeat -677px 0;
+}
+.weibo a:hover{
+    background-position: -645px 0;
+}
+.scan_weixin{
+    opacity: 0;
+    width: 160px;
+    height: 160px;
+    float: left;
+    position: absolute;
+    top: 27px;
+    left: -65px;
+    background: url("../images/index/erweima.png");
+    transition: all 500ms linear;
+    -moz-transition: all 500ms linear; /* Firefox 4 */
+    -webkit-transition: all 500ms linear; /* Safari 和 Chrome */
+    -o-transition: all 500ms linear; /* Opera */
+}
+.weixin:hover .scan_weixin{
+    opacity: 1;
+}
