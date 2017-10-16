@@ -72,4 +72,16 @@ $(function () {
 
         $(".details_ul_img_one").eq(index).addClass("details_ul_img_current").siblings().removeClass("details_ul_img_current");
     });
+
+    /* 加入购物车*/
+    $(".buy_now").click(function () {
+        /*触发遮罩*/
+        $(".bomb_box3").show();
+        $(".mask").show();
+    });
+    /*遮罩*/
+    $(".box_btn").click(function () {
+        $(".bomb_box").hide();
+        $(".mask").hide();
+    });
 })

@@ -121,6 +121,18 @@ $(function () {
         return flagPic;
     }
 
+    /* 加入购物车*/
+    $(".buy_now").click(function () {
+        /*触发遮罩*/
+        $(".bomb_box3").show();
+        $(".mask").show();
+    });
+    /*遮罩*/
+    $(".box_btn").click(function () {
+        $(".bomb_box").hide();
+        $(".mask").hide();
+    });
+
    /* 参数选择*/
    $(".parameter_nav a").click(function () {
        $(this).addClass("parameter_current").siblings().removeClass("parameter_current");

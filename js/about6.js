@@ -68,6 +68,12 @@ $(function () {
             }
         }
     );
+   /* 加入购物车*/
+   $(".buy_now").click(function () {
+       /*触发遮罩*/
+       $(".bomb_box3").show();
+       $(".mask").show();
+   });
 
     $(".buy_info_less").click(function () {
             var val = $(".buy_info_input").val();

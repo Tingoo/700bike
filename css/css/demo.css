@@ -193,7 +193,7 @@ a {
 }
 
 .light span {
-	background: #fdcdcd;
+	background: #c1def9;
 	color: #fff;
 	text-shadow: 0 1px 1px rgba(0,0,0,0.3);
 	box-shadow: inset 0 1px 1px rgba(0,0,0,0.2), 0 1px 1px rgba(255,255,255,0.8);
@@ -201,7 +201,7 @@ a {
 
 .light span:hover {
 	/*background: #ccccff;*/
-	background: #de9191;;
+	background: #97c2ea;
 }
 .light img{
 	width: 18px;

@@ -38,9 +38,9 @@ $(function () {
         switch(index){
             case 0:$("body,html").animate({scrollTop:900},500);
                 break;
-            case 1:$("body,html").animate({scrollTop:10934},500);
+            case 1:$("body,html").animate({scrollTop:8992},500);
                 break;
-            case 2:$("body,html").animate({scrollTop:11391},500);
+            case 2:$("body,html").animate({scrollTop:9404},500);
                 break;
         }
     });

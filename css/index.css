@@ -19,6 +19,35 @@ h4{
     width: 100%;
     /*background-color: #CCCCCC;*/
 }
+.back{
+    background: url("../images/header/iconMerge_669a29d.png") no-repeat 0 -214px;
+    border-radius: 64px;
+    bottom: 100px;
+    box-shadow: 0 2px 3px -1px rgba(0,0,0,.2);
+    cursor: pointer;
+    opacity: 0;
+    height: 64px;
+    position: fixed;
+    right: 20px;
+    width: 64px;
+    z-index: 9;
+
+    transition: opacity 500ms linear;
+    -moz-transition: opacity 500ms linear; /* Firefox 4 */
+    -webkit-transition: opacity 500ms linear; /* Safari 和 Chrome */
+    -o-transition: opacity 500ms linear; /* Opera */
+}
+.back:hover{
+    box-shadow: 0 2px 10px rgba(0,0,0,.2);
+}
+.back.show{
+    opacity: 1;
+    transition: opacity 500ms linear;
+    -moz-transition: opacity 500ms linear; /* Firefox 4 */
+    -webkit-transition: opacity 500ms linear; /* Safari 和 Chrome */
+    -o-transition: opacity 500ms linear; /* Opera */
+}
+
 .header_wrap{
     width: 1240px;
     margin: 0 auto;

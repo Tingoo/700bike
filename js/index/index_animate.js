@@ -65,28 +65,28 @@ $(function() {
     var $baraja = $(".baraja-container li");
 
     $baraja.eq(0).find("h2").click(function () {
-        window.location.href="#";
+        window.location.href="html/about2_YHMINI.html";
     });
     $baraja.eq(1).find("h2").click(function () {
-        window.location.href="about5_HJMiniRoad.html";
+        window.location.href="html/about18_HJMini.html";
     });
     $baraja.eq(2).find("h2").click(function () {
-        window.location.href="#";
+        window.location.href="html/about18_HJMini.html";
     });
     $baraja.eq(3).find("h2").click(function () {
-        window.location.href="about4_HJ2017.html";
+        window.location.href="html/about4_HJ2017.html";
     });
     $baraja.eq(4).find("h2").click(function () {
-        window.location.href="about1_HJLite.html";
+        window.location.href="html/about1_HJLite.html";
     });
     $baraja.eq(5).find("h2").click(function () {
-        window.location.href="about3_YH2017.html";
+        window.location.href="html/about3_YH2017.html";
     });
     $baraja.eq(6).find("h2").click(function () {
-        window.location.href="about2_YHMINI.html";
+        window.location.href="html/about2_YHMINI.html";
     });
     $baraja.eq(7).find("h2").click(function () {
-        window.location.href="#";
+        window.location.href="html/about18_HJMini.html";
     });
 
 });

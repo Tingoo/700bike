@@ -39,6 +39,7 @@ $(function () {
     $(".main_bike_color_chose ul li").click(function () {
         var index = $(this).index();
         clearInterval(colorTimer);
+        $mainBikeColorChose.eq(index).addClass("main_color_current").siblings().removeClass("main_color_current");
         $(".main_bike_color_img ul").stop(true,true).animate({marginLeft:-3640+index*910+"px"},1000);
         $mainBikeColorImg.eq(index-1).animate({opacity:0},1000).animate({opacity:1},1000);
         setColor(index);
@@ -113,5 +114,17 @@ $(function () {
             }
 
         },2000);
+    });
+
+    /* 加入购物车*/
+    $(".buy_now").click(function () {
+        /*触发遮罩*/
+        $(".bomb_box3").show();
+        $(".mask").show();
+    });
+    /*遮罩*/
+    $(".box_btn").click(function () {
+        $(".bomb_box").hide();
+        $(".mask").hide();
     });
 });

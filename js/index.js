@@ -50,4 +50,16 @@ $(function () {
     $(".header_bike_3").click(function () {
         window.location.href = "html/about4_HJ2017.html"
     });
+    $(".header_bike_4").click(function () {
+        window.location.href = "html/about2_YHMINI.html"
+    });
+    $(".header_bike_5").click(function () {
+        window.location.href = "html/about3_YH2017.html"
+    });
+    $(".header_bike_6").click(function () {
+        window.location.href = "html/about1_HJLite.html"
+    });
+    $(".header_bike_7").click(function () {
+        window.location.href = "html/about18_HJMini.html"
+    });
 });

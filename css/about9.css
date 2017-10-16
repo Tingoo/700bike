@@ -224,6 +224,10 @@
     .new_header img{
         width: 1080px;
         height: 580px;
+        display: none;
+    }
+    .new_header img.header_show{
+        display: block;
     }
     .new_content{
         background: #f7f7f5;
@@ -285,6 +289,10 @@
             padding-top: 30px;
             zoom: 1;
             display: none;
+            /*text-align: center;*/
+        }
+        .content_views ul li img{
+            margin: auto;
         }
         .current_view{
             display: block;

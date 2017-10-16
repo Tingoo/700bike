@@ -134,6 +134,10 @@
                 margin-bottom: 30px;
                 color: #333!important;
             }
+            .product_right .right_price span{
+                color: red;
+                font-size: 14px !important;
+            }
 
             .buy_info{
                 position: relative;
